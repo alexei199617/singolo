@@ -1,0 +1,230 @@
+ul {
+    padding: 0;
+}
+body, h1, h2, h3, h4, p, ul, ol[class], li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+}
+ul[class],
+ol[class] {
+    list-style: none;
+}
+body {
+    max-width: 1020px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+html {
+    background: #C9A06A;
+    background: -webkit-radial-gradient(top right, #C9A06A, #012C97);
+    background: -moz-radial-gradient(top right, #C9A06A, #012C97);
+    background: radial-gradient(to bottom left, #C9A06A, #012C97);;
+}
+
+/*PART2*/
+*/*portfolio*/
+ .portfolio {
+     height: 864px;
+     background-color: #2d2f3b;
+     border-bottom: solid 6px #323746;
+ }
+
+ .portfolio_block {
+     width: 940px;
+     margin: 0 auto;
+ }
+
+ .portfolio_text h2 {
+     padding: 60px 0 0;
+     font-size: 30px;
+     color: #666d89;
+     font-weight: 900;
+     letter-spacing: -0.2px;
+ }
+
+ .portfolio_text p{
+     width: 940px;
+     font-size: 18px;
+     line-height: 30px;
+     color: #767e9e;
+     font-weight: 300;
+     margin-top: 18px;
+ }
+
+ .portfolio_text_icon {
+     display: flex;
+     margin-top: 11px;
+     padding-left: 1px;
+ }
+
+ .portfolio_button {
+     text-decoration: none;
+     height: 20px;
+     border-radius: 5px;
+     background-color: #2d303a;
+     border: 1px solid #666d89;
+     font-size: 12px;
+     line-height: 20px;
+     color: #767e9e;
+     font-weight: 400;
+     letter-spacing: 0px;
+     cursor: pointer;
+     padding: 0 6.3px;
+     margin-right: 9.15px;
+ }
+
+ .portfolio_button_all,
+ .portfolio_button:hover {
+     color: #dedede;
+     border: 1px solid #c5c5c5;
+ }
+
+ .portfolio_pictures {
+     max-height: 605px;
+     margin-top: 19px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     overflow: hidden;
+ }
+
+ .portfolio_pictures li {
+     width: 220px;
+     height: 187px;
+     background-color: #464b5e;
+     margin-bottom: 20px;
+     list-style-type: none;
+     display: block;
+ }
+
+*/*about_us*/
+ .about_us_block {
+     width: 940px;
+     margin: 0 auto;
+ }
+
+ .about_us {
+     height: 728px;
+     background-color: #f2f2f2;
+     border-bottom: solid 6px #fff;
+ }
+
+ .about_us_text h2 {
+     padding: 60px 0 0;
+     font-size: 30px;
+     color: #666d89;
+     font-weight: 900;
+     letter-spacing: 0px;
+ }
+
+ .about_us_text_p1 {
+     width: 940px;
+     font-size: 18px;
+     line-height: 30px;
+     color: #767e9e;
+     font-weight: 300;
+     letter-spacing: 0.15px;
+     margin-top: 17px;
+ }
+ .about_us_text_p2 {
+     width: 940px;
+     font-size: 18px;
+     line-height: 30px;
+     color: #767e9e;
+     font-weight: 300;
+     letter-spacing: 0px;
+     margin-top: 0px;
+ }
+
+ .about_us_card {
+     width: 300px;
+ }
+
+ .about_us_block_card {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 45px;
+ }
+
+ .about_us_card h3 {
+     height: 22px;
+     font-size: 18px;
+     color: #666d89;
+     font-weight: 900;
+     padding-top: 12px;
+     letter-spacing: -0.1px;
+     overflow: hidden;
+ }
+
+ .about_us_card p {
+     width: 300px;
+     height: 40px;
+     font-size: 12px;
+     line-height: 21px;
+     color: #767e9e;
+     font-weight: 400;
+     text-align: justify;
+     letter-spacing: 0px;
+     margin-top: 8px;
+     overflow: hidden;
+ }
+ .about_us_card_AJ {
+     width: 300px;
+     height: 40px;
+     font-size: 12px;
+     line-height: 21px;
+     color: #767e9e;
+     font-weight: 400;
+     letter-spacing: -0.06px !important;
+     margin-top: 8px;
+     overflow: hidden;
+ }
+
+ .social {
+     display: flex;
+     margin-top: 26px;
+ }
+
+ .social li {
+     width: 30px;
+     height: 30px;
+     border-radius: 16px;
+     border: 1px solid #666d89;
+     display: flex;
+     margin-right: 8px;
+ }
+
+ .social li:hover {
+     cursor: pointer;
+ }
+
+ .icon_facebook {
+     background: url(assets/img/about_us/facebook.png) no-repeat center;
+ }
+
+ .icon_facebook:hover {
+     background: url(assets/img/about_us/facebook_hover.png) no-repeat center #666d89;
+ }
+
+ .icon_google {
+     background: url(assets/img/about_us/google.png) no-repeat center;
+ }
+
+ .icon_google:hover {
+     background: url(assets/img/about_us/google_hover.png) no-repeat center #666d89;
+ }
+
+ .icon_twitter {
+      background: url(assets/img/about_us/twitter.png) no-repeat center;
+  }
+
+ .icon_twitter:hover {
+     background: url(assets/img/about_us/twitter_hover.png) no-repeat center #666d89;
+ }
+
+ .icon_linkedin {
+     background: url(assets/img/about_us/linkedin.png) no-repeat center;
+ }
+
+ .icon_linkedin:hover {
+     background: url(assets/img/about_us/linkedin_hover.png) no-repeat center #666d89;
+ }
