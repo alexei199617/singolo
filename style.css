@@ -672,7 +672,6 @@ html {
     margin-left: 21px;
     letter-spacing: -0.03px;
     text-align: justify;
-    /* max-width: 400px; */
  }
 
  .get_a_quote_contact_h3 {
@@ -735,15 +734,23 @@ html {
 
  #message {
      position: absolute;
-     top: 50%;
-     left: 45%;
+     top: 41.5%;
+     left: 40%;
      border: 2px solid black;
      border-radius: 10px;
      text-align: center;
      background: white;
-     width: 200px;
-     height: 100px;
+     width: 19%;
+     height: 16%;
      position: fixed;
+ }
+
+ #message_text {
+     text-align: center;
+     width: 346px;
+     height: 112px;
+     padding: 10px 15px 5px;
+     overflow: hidden;
  }
 
 */*footer*/
