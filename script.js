@@ -4,7 +4,7 @@ const button = document.getElementById("btn");
 const exit_button = document.getElementById("exit_btn");
 const portfolio_icon = document.getElementById("portfolio_text_icon");
 const portfolio_pictures = document.getElementById("portfolio_pictures");
-
+const form = document.getElementById("myform");
 
 
 // header
@@ -72,7 +72,7 @@ document.querySelector('.slider__arrow_left').addEventListener('click', function
         previosItem(arrow_index);
     }
 });
-document.querySelector('.slider__arrow_right').addEventListener('click', function() { /// ERROR
+document.querySelector('.slider__arrow_right').addEventListener('click', function() {
     if (arrow_status) {
         nextItem(arrow_index);
     }
@@ -109,7 +109,7 @@ function click_img(event) {
 
 
 // message
-button.addEventListener('click', sendInfo);
+form.addEventListener('submit', sendInfo);
 function sendInfo(event) {
     event.preventDefault();
     document.getElementById("message_block").classList.remove('hidden');
@@ -139,4 +139,5 @@ function sendInfo(event) {
 exit_button.addEventListener('click', () => {
     document.getElementById("theme").innerText = '';
     document.getElementById("message_block").classList.add('hidden');
+    document.getElementById('myform').reset();
 });
